@@ -31,7 +31,8 @@ def bankclassify():
 
     #url for bank marketing model
     #url = "http://localhost:5000/api"
-    url = "https://bank-model-app.herokuapp.com/api"
+    #url = "https://bank-model-app.herokuapp.com/api"
+    url = "https://dsm-bank-model-2870047-17369cef8735.herokuapp.com/api"
   
     #post data to url
     results =  requests.post(url, input_data)
