@@ -50,7 +50,7 @@ pyrsistent==0.17.3
 python-dateutil==2.8.1
 python-dotenv==0.15.0
 pytz==2020.1
-pywin32
+#pywin32
 pywinpty==0.5.7
 pyzmq
 requests==2.24.0
