@@ -17,13 +17,6 @@
 - `pip install sklearn`
 - `pip install pandas`
 - `pip install -r requirements.txt` (needed to fix several version numbers and comment out pywin32. Use python install_packages.py to do 1 by 1 install to see conflicts locally. Then will need to do similar with Heroku)
-- create new requirements.txt: 
-
-# initialize bank model flask app (fix small bug in __init__.py probably due to change of version) 
-- `cd dsm-bank-model-2870047`
-- `set FLASK_APP=main.py`
-- `flask run`
-- on browser: `http://127.0.0.1:5000/api`
 
 # initilaize bank flask app (open on another terminal)
 - `cd dsm-bank-app-2870047`
